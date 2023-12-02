@@ -7,16 +7,16 @@ const App = () => {
   const [items, setItems] = useState(songs);
 
   return (
-    <div id="container">
-      <div className="background">
+    <section id="container">
+      <header className="background">
         <h1>Playlist - Pop Hits</h1>
-      </div>
+      </header>
       <Reorder.Group axis="y" onReorder={setItems} values={items}>
         {items.map((item) => (
           <Playlist key={item.id} item={item} />
         ))}
       </Reorder.Group>
-    </div>
+    </section>
   );
 };
 
