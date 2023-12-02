@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cb617efe33a58fbcaf985846ec9797957cb6551d
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -7,6 +10,7 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<<<<<<< HEAD
 =======
 Utilize o React e o Framer Motion e construa uma playlist em que você poderá mudar a ordem das músicas utilizando *drag and drop*! O objetivo desse mini projeto é tanto *descobrir como o Framer Motion facilita o uso de drag and drop* bem como entender como funciona, por trás dos panos, a lógica de reordenação de uma lista *drag and drop*.
 
@@ -66,3 +70,5 @@ Claro que sim, mas o que recomendamos aqui (e é o objetivo deste mini projeto) 
 
 A resolução oficial sempre é disponibilizada no [site oficial do Codante](https://codante.io). Verifique na [nossa agenda](https://codante.io/agenda) se data da resolução deste mini projeto já está definida.
 >>>>>>> 3548f3871f872e524e5e987a6b65ea9c6c34a934
+=======
+>>>>>>> cb617efe33a58fbcaf985846ec9797957cb6551d

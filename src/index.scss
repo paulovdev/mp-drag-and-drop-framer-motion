@@ -10,6 +10,7 @@
 }
 
 #container {
+<<<<<<< HEAD
     max-width: 550px;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -36,6 +37,28 @@
 
     .playlist-container {
         position: relative;
+=======
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    .text-container {
+        background: url("/background.png") center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 150px;
+
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        h1 {
+            width: 100%;
+            background-color: #000000b6;
+            color: #fff;
+            padding: 1rem;
+        }
+    }
+    .playlist-container {
+>>>>>>> cb617efe33a58fbcaf985846ec9797957cb6551d
         width: 100%;
         height: 100px;
         padding: 1rem;
@@ -44,7 +67,10 @@
         align-items: center;
         justify-content: space-between;
 
+<<<<<<< HEAD
         cursor: pointer;
+=======
+>>>>>>> cb617efe33a58fbcaf985846ec9797957cb6551d
         .song-wrapper {
             display: flex;
             align-items: center;
@@ -53,12 +79,17 @@
         img {
             width: 50px;
             height: 50px;
+<<<<<<< HEAD
             border-radius: 50%;
+=======
+            background-color: #000;
+>>>>>>> cb617efe33a58fbcaf985846ec9797957cb6551d
         }
         .texts {
             display: flex;
             flex-direction: column;
             gap: 0.4rem;
+<<<<<<< HEAD
 
             h5 {
                 font-weight: 800;
@@ -76,6 +107,21 @@
 
             font-size: 0.875rem;
             font-weight: 400;
+=======
+            h5 {
+                font-weight: 800;
+                font-size: 1rem;
+            }
+            h6 {
+                font-weight: 500;
+                font-size: 0.9rem;
+                color: rgba(68, 68, 68, 0.753);
+            }
+        }
+        span {
+            font-size: 0.9rem;
+            color: rgba(68, 68, 68, 0.753);
+>>>>>>> cb617efe33a58fbcaf985846ec9797957cb6551d
         }
     }
 }
