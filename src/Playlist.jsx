@@ -2,6 +2,7 @@ import React from "react";
 import { Reorder } from "framer-motion";
 import { RiDraggable } from "react-icons/ri";
 
+
 const Playlist = ({ item }) => {
   return (
     <Reorder.Item value={item} id={item.song}>
@@ -14,7 +15,7 @@ const Playlist = ({ item }) => {
             <h6>{item.artist}</h6>
           </div>
         </div>
-        <span>{item.time}</span>
+        <span>{item.duration}</span>
       </div>
     </Reorder.Item>
   );

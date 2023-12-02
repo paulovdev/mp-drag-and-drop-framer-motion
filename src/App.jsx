@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import { Reorder } from "framer-motion";
 import Playlist from "./Playlist";
+import { songs } from "./songs";
 
 const App = () => {
-  const [items, setItems] = useState(musics);
+  const [items, setItems] = useState(songs);
 
   return (
     <div id="container">
-      <div className="text-container">
-        <h1>Playlist - PXULIN musics</h1>
+      <div className="background">
+        <h1>Playlist - Pop Hits</h1>
       </div>
       <Reorder.Group axis="y" onReorder={setItems} values={items}>
         {items.map((item) => (
-          <Playlist key={item.song} item={item} />
+          <Playlist key={item.id} item={item} />
         ))}
       </Reorder.Group>
     </div>
@@ -20,31 +21,3 @@ const App = () => {
 };
 
 export default App;
-
-const musics = [
-  { image: "/img-1.jpg", song: "THE END", artist: "pxulin", time: "2:47" },
-  {
-    image: "/img-2.jpg",
-    song: "CALAMITY",
-    artist: "pxulin w/nikick & grvnnek",
-    time: "2:37",
-  },
-  {
-    image: "/img-3.jpg",
-    song: "CURSED",
-    artist: "pxulin w/ marty menning",
-    time: "2:32",
-  },
-  {
-    image: "/img-4.jpg",
-    song: "WALK NIGHT",
-    artist: "pxulin",
-    time: "1:36",
-  },
-  {
-    image: "/img-5.jpg",
-    song: "PSYCHO",
-    artist: "pxulin w/lvcifer",
-    time: "1:36",
-  },
-];
